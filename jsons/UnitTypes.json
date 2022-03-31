@@ -1,0 +1,26 @@
+[   
+   {
+        "name": "Hero",
+        "movementType": "Land",
+        "uniques": ["All tiles cost 1 movement","Can pass through impassable tiles",
+                   "Shock I","Shock II","Shock III","Drill I","Drill II","Drill III","Survivalism I",
+                   "Survivalism II","Survivalism III","Besiege","Woodsman"]
+    },
+  {
+        "name": "Hero Water",
+        "movementType": "Water",
+    "uniques": ["All tiles cost 1 movement","Can pass through impassable tiles"]
+    },
+    {
+        "name": "Ranged Hero",
+        "movementType": "Land",
+      "uniques": ["All tiles cost 1 movement","Can pass through impassable tiles",
+                 "Accuracy I","Accuracy II","Accuracy III","Barrage I","Barrage II","Barrage III",
+                 "Scouting I","Scouting II","Scouting III","Besiege","Extended Range"]
+    },
+    {
+        "name": "Ranged Hero Water",
+        "movementType": "Water",
+      "uniques": ["All tiles cost 1 movement","Can pass through impassable tiles"]
+    }
+ ]"uniques": ["All tiles cost 1 movement","Can pass through impassable tiles"]
