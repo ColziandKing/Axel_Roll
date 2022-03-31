@@ -2,7 +2,7 @@
 //HEROES
 {
 		"name": "Aim Peirce",
-		"unitType": "Ranged Hero",
+		"unitType": "Civilian",
 		"uniqueTo": "Chediluen",
 		"strength": 40,
 		"rangedStrength": 20,
@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Hollena Planeta",
-		"unitType": "Hero",
+		"unitType": "Civilian",
 		"uniqueTo": "Azibhania",
 		"strength": 60,
 		"uniques": ["Can start an [22]-turn golden age", "Can construct [Holy Place] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
