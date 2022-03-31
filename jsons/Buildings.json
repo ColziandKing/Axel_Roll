@@ -2,7 +2,7 @@
   {
 		"name": "Stele",
 		"replaces": "Monument",
-		"uniqueTo": "Chediluen",
+		"uniqueTo": "Ilumara Ira",
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
@@ -22,7 +22,7 @@
 	{
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
-		"uniqueTo": "Chediluen",
+		"uniqueTo": "Ilumara Ira",
 		"food": 2,
 		"production": 1,
 		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
@@ -165,11 +165,50 @@
 	{
 		"name": "Slave Market",
 		"replaces": "Market",
-		"uniqueTo": "Chediluen",
+		"uniqueTo": "Ilumara Ira",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["+[33]% production when building [Worker] in this city","[+2 Gold] from [Plantation] tiles in this city"]
 		"requiredTech": "Currency"
-	}
+	},
+	{
+		"name": "Folkloric Comparse",
+		"replaces": "Amphitheater",
+		"cost": 110,
+		"requiredTech": "Philosophy",
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"happiness": 1,
+		"culture": 4,
+		"specialistSlots": {"Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniqueTo": "Ilumara Ira",
+	},
+	{
+		"name": "Peruvian Restaurant",
+		"replaces": "Broadcast Tower",
+		"requiredTech": "Radio",
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"food": 2,
+		"culture": 3,
+		"gold": 1,
+		"percentStatBonus": {"culture": 25},
+		"uniqueTo": "Azibhania",
+	},
+	{
+		"name": "Criollo Cannon",
+		"cost": 200,
+		"hurryCostModifier": -40,
+		"requiredTech": "Chemistry",
+		"maintenance": 1,
+		"cityStrength": 10,
+		"uniqueTo": "Chediluen",
+		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>",
+				"Unlocked with [Oligarchy]",
+				"[+1 Culture] <after discovering [Combined Arms]>",
+				"Destroyed when the city is captured"],
+		
+	},
   ]
