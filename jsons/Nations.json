@@ -123,6 +123,7 @@
 		"innerColor": [0,255,255],
 		"uniqueName": "Kingdom of a City Nation",
 		"uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>",
+		"May capture killed [All] units",
 		"[-10]% Strength <vs [Barbarian] units>",
 		"[+10]% Strength <vs [City-State] units>",
 		"May choose [3] additional belief(s) of any type when [founding] a religion",
