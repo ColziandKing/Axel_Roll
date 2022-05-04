@@ -151,6 +151,18 @@
 		"requiredTech": "Banking"
 	},
 	{
+		"name": "Hanse",
+		"replaces": "Bank",
+		"uniqueTo": "Azibhania",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
 		"name": "Coffee House",
 		"replaces": "Windmill",
 		"uniqueTo": "Azibhania",
