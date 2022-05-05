@@ -85,13 +85,13 @@
 		"name": "Divinestria",
 		"leaderName": "Eula Tempest",
 		"adjective": ["Tempresa"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "Hailing from Divinestria, O' wonderful leader. One of the royal noble Pureheart council.",
 		"startIntroPart2": "Ilumara, lead the nationn for Divinestria.",					
 		
 		"declaringWar": "It appears there are many who want you dead, and so you will be.",
-		"attacked": "No one double crosses Jabba and lives.",
+		"attacked": "No one attacks and lives.",
 		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise.",
 		"introduction": "If there's money to be made, we will get it.",
 		"neutralHello": "Come to me with a deal?",		
