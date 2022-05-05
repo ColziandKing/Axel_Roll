@@ -902,5 +902,17 @@
 		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
 		"hurryCostModifier": 20,
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Grove Keeper",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Lithuanians",
+		"movement": 2,
+		"cost": 85,
+		"upgradesTo": "Swordsman",
+		"uniques": ["Can build improvements on tiles"],
+		"promotions": ["Choosen of the Gods","Constructor"],
+		"attackSound": "metalhit"
 	}
   ]
